@@ -1,4 +1,4 @@
-#!/vagrant_data/lego_scrape/scrape/bin/python3.6
+#!/mnt/c/Users/svyut/ubuntufiles/scraping/lego_scrape/scrape/bin/python3.6
 
 # -*- coding: utf-8 -*-
 import re

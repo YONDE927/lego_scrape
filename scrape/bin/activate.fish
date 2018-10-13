@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/vagrant_data/lego_scrape/scrape"
+set -gx VIRTUAL_ENV "/mnt/c/Users/svyut/ubuntufiles/scraping/lego_scrape/scrape"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

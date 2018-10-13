@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/vagrant_data/lego_scrape/scrape"
+VIRTUAL_ENV="/mnt/c/Users/svyut/ubuntufiles/scraping/lego_scrape/scrape"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
