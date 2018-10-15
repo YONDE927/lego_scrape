@@ -8,4 +8,8 @@ class BricksetSpider(scrapy.Spider):
     start_urls = ['https://brickset.com/sets/year-2018']
 
     def parse(self, response):
-        pass
+        for brickset in response.css('article.set'):
+            meta=brickset.css('div.meta')
+            number=meta.css('h1 span::text').re_first(r'(.+):')
+            name=brickset.css('div.highslide-caption h1::text').extract_first()
+            print(number,name)
